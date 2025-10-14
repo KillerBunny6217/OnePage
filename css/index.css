@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #d7dcdc;
+    color: #333;
+}
+
+header,
+nav,
+main,
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(21, 21, 125);
+    color: white;
+}
+
+nav {
+    background-color: rgb(23, 81, 179);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: rgb(21, 21, 125);
+}
+
+figure {
+    margin: 20px auto;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+figure video {
+    max-width: 60%;
+    border-radius: 10px;
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #555;
+}
+
+aside {
+    background-color: #d2d2d2;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    gap: 20px; 
+}
+
+#maestro2 {
+    flex: 0 0 180px; 
+    text-align: justify;
+}
+
+#maestro2 img {
+    width: 65%; 
+    border-radius: 10px;
+    margin-left: 30px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#maestro2 figcaption {
+    font-size: 0.9em;
+    color: #333;
+}
+
+aside p {
+    flex: 1;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+
+footer {
+    background-color: rgb(21, 21, 125);
+    color: white;
+    font-size: 0.9em;
+    padding: 10px;
+}
